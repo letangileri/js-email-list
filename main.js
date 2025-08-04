@@ -12,8 +12,8 @@ for (let i = 0; i < 10; i++){
             
             console.log(result);
             emailList.push(result)
+            console.log(emailList);
             
         })
-
 }
 console.log(emailList);
