@@ -14,6 +14,9 @@ for (let i = 0; i < 10; i++){
             emailList.push(result)
             console.log(emailList);
             
+            if (i == emailList.length-1){
+                console.log(emailList);
+            }
         })
 }
 console.log(emailList);
